@@ -12,7 +12,7 @@ function NaverMap() {
 
     const map = new naver.maps.Map(mapContainer, {
       center: new naver.maps.LatLng(37.51133, 126.9522),
-      zoom: 17,
+      zoom: 16,
       minZoom: 15,
       tileDuration: 300,
       baseTileOpacity: 1,
@@ -26,7 +26,7 @@ function NaverMap() {
     });
   }, []);
 
-  return <div id="map" style={{ width: "100%", height: "100vh" }}></div>;
+  return <div id="map" style={{ width: "301px", height: "200px" }}></div>;
 }
 
 export default NaverMap;

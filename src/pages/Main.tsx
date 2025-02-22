@@ -199,7 +199,7 @@ function Main() {
             본 예식은 야외에서 진행됩니다.
           </span>
         </div>
-        <div className="">
+        <div className="location_map_box">
           <NaverMap />
         </div>
       </section>
