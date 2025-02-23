@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/invitation/static/css/main.728dc46d.css",
-    "main.js": "/invitation/static/js/main.662d8056.js",
+    "main.css": "/invitation/static/css/main.f3736217.css",
+    "main.js": "/invitation/static/js/main.a29ee042.js",
     "index.html": "/invitation/index.html",
     "static/media/call.svg": "/invitation/static/media/call.09572f68ab791cae106521b9842e718d.svg",
     "static/media/cancel.svg": "/invitation/static/media/cancel.bde8be7be9588cd56ae861cf7c3e86ee.svg",
@@ -10,11 +10,11 @@
     "static/media/arrow.svg": "/invitation/static/media/arrow.754087a3c20085edb8386e5cb0e8048d.svg",
     "static/media/sms.svg": "/invitation/static/media/sms.c0afe1a36d37d6791b51495a0e982177.svg",
     "static/media/copy.svg": "/invitation/static/media/copy.c1edfca438b4f4dd4fb489844974d213.svg",
-    "main.728dc46d.css.map": "/invitation/static/css/main.728dc46d.css.map",
-    "main.662d8056.js.map": "/invitation/static/js/main.662d8056.js.map"
+    "main.f3736217.css.map": "/invitation/static/css/main.f3736217.css.map",
+    "main.a29ee042.js.map": "/invitation/static/js/main.a29ee042.js.map"
   },
   "entrypoints": [
-    "static/css/main.728dc46d.css",
-    "static/js/main.662d8056.js"
+    "static/css/main.f3736217.css",
+    "static/js/main.a29ee042.js"
   ]
 }
