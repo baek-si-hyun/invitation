@@ -17,8 +17,8 @@ function Main() {
     setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
   };
 
-  const handleImageClick = (idx: number) => {
-    setSelectedIndex(idx); // 클릭된 이미지 인덱스 저장
+  const handleImageClick = (index: number) => {
+    setSelectedIndex(index); // 클릭된 이미지 인덱스 저장
     setIsModalOpen(true); // 모달 열기
   };
 

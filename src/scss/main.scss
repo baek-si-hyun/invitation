@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 393px;
+    width: 100vw;
     height: 100vh;
     .landing_title_box {
       margin-bottom: 9px;
@@ -240,6 +240,7 @@
     .location_map_box {
       width: 301px;
       height: 200px;
+      overflow: hidden;
     }
     .location_descript {
       margin-top: 29px;
@@ -314,7 +315,7 @@
         padding: 19px 16px;
         border: 1px solid #e1e1e2;
         border-radius: 12px;
-        transition: all 0.5s ease;
+        transition: all 0.3s ease;
 
         .account_default {
           width: 100%;
