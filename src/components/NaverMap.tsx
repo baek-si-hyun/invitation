@@ -14,7 +14,7 @@ function NaverMap() {
       center: new naver.maps.LatLng(37.51133, 126.9522),
       zoom: 16,
       minZoom: 15,
-      tileDuration: 300,
+      tileDuration: 300, 
       baseTileOpacity: 1,
       background: "white",
       tileSpare: 7,

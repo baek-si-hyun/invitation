@@ -1,5 +1,6 @@
 .container {
   width: 100%;
+  position: relative;
   section {
     margin: 0 auto;
     display: flex;
@@ -213,7 +214,7 @@
       }
     }
 
-    .content_title_box2 {
+    .content_title_box_43 {
       margin-bottom: 43px;
     }
     .location_content {
@@ -230,14 +231,167 @@
       .location_content_item {
         font-size: 14px;
         font-weight: 400;
-        line-height: 17.5px;
         &:last-child {
           font-size: 12px;
         }
       }
-      .location_map_box {
-        width: 301px;
-        height: 200px;
+    }
+
+    .location_map_box {
+      width: 301px;
+      height: 200px;
+    }
+    .location_descript {
+      margin-top: 29px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .location_descript_section {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        .location_descript_title {
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 15px;
+        }
+        .location_descript_content {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 15px;
+          letter-spacing: -0.3px;
+        }
+      }
+      .location_descript_section:nth-of-type(3) {
+        .location_descript_content {
+          line-height: 9px;
+          &:nth-child(4),
+          &:nth-child(5) {
+            text-indent: 7px;
+          }
+        }
+      }
+    }
+    .content_title_box_48 {
+      margin-bottom: 48px;
+    }
+    .account_box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 21px;
+      .account_item {
+        &:nth-child(1) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 48px;
+        }
+        &:nth-child(2) {
+          margin-bottom: 46px;
+          .account_content {
+            font-size: 16px;
+          }
+        }
+        .account_content {
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 15px;
+        }
+      }
+    }
+    .account_active_box {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      .account_active_item {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        overflow: hidden;
+        max-height: 56px;
+        padding: 19px 16px;
+        border: 1px solid #e1e1e2;
+        border-radius: 12px;
+        transition: all 0.5s ease;
+
+        .account_default {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .account_default_title {
+            font-size: 12px;
+          }
+          .account_default_btn {
+            svg {
+              transition: transform 0.2s ease-in-out;
+              &.active {
+                transform: rotate(180deg);
+              }
+            }
+          }
+        }
+
+        .account_hidden_box {
+          opacity: 0;
+          transition: all 0.5s ease;
+          margin-top: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          .account_hidden_item {
+            display: flex;
+            flex-direction: column;
+            .account_hidden_content_box {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              .account_hidden_content_inner {
+                display: flex;
+                align-items: center;
+                gap: 3px;
+                .account_hidden_content {
+                  font-size: 10px;
+                  font-weight: 400;
+                  line-height: 24px;
+                  &:nth-child(2) {
+                    color: #1a1a1a;
+                    opacity: 0.3;
+                  }
+                }
+              }
+              .account_hidden_copy_btn {
+                font-size: 8px;
+                font-weight: 400;
+                width: 51px;
+                height: 22px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 3px;
+                border: 1px solid #e1e1e2;
+                border-radius: 6px;
+              }
+            }
+            .account_hidden_name_box {
+              .account_hidden_content {
+                font-size: 10px;
+                font-weight: 400;
+              }
+            }
+          }
+        }
+
+        &.active {
+          max-height: 223px;
+          padding: 12px 16px;
+          .account_hidden_box {
+            opacity: 1;
+          }
+        }
       }
     }
   }

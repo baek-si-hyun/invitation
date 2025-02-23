@@ -1,0 +1,27 @@
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .footer_section {
+    &:first-child {
+      margin-bottom: 22px;
+      display: flex;
+      justify-content: center;
+      gap: 47px;
+    }
+    &:last-child {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .footer_share {
+      font-size: 10px;
+      font-weight: 400;
+    }
+    .footer_copyright {
+      font-size: 8px;
+      font-weight: 400;
+    }
+  }
+}
