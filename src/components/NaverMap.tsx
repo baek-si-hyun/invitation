@@ -11,17 +11,17 @@ function NaverMap() {
     if (!mapContainer) return;
 
     const map = new naver.maps.Map(mapContainer, {
-      center: new naver.maps.LatLng(37.51133, 126.9522),
+      center: new naver.maps.LatLng(37.562871, 127.209433),
       zoom: 16,
       minZoom: 15,
-      tileDuration: 300, 
+      tileDuration: 300,
       baseTileOpacity: 1,
       background: "white",
       tileSpare: 7,
     });
 
     new naver.maps.Marker({
-      position: new naver.maps.LatLng(37.51133, 126.9522),
+      position: new naver.maps.LatLng(37.562871, 127.209433),
       map,
     });
   }, []);
