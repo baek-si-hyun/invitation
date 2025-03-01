@@ -101,19 +101,19 @@ function Main() {
             <div className="bride_groom_box">
               <div className="bride_groom_item">
                 <span className="bride_groom_title">신랑에게 연락하기</span>
-                <a href="tel:01011111111" className="bride_groom_call_btn">
+                <a href="tel:+16479981784" className="bride_groom_call_btn">
                   <CallSvg />
                 </a>
-                <a href="sms:01011111111" className="bride_groom_sms_btn">
+                <a href="sms:+16479981784" className="bride_groom_sms_btn">
                   <SmsSvg />
                 </a>
               </div>
               <div className="bride_groom_item">
                 <span className="bride_groom_title">신부에게 연락하기</span>
-                <a href="tel:01011111111" className="bride_groom_call_btn">
+                <a href="tel:+16475679273" className="bride_groom_call_btn">
                   <CallSvg />
                 </a>
-                <a href="sms:01011111111" className="bride_groom_sms_btn">
+                <a href="sms:+16475679273" className="bride_groom_sms_btn">
                   <SmsSvg />
                 </a>
               </div>
@@ -130,24 +130,24 @@ function Main() {
                     <span className="host_info_bold">신창인</span>
                   </div>
                   <div className="host_action_box">
-                    <a href="tel:01011111111" className="host_action">
+                    <a href="tel:+821085221783" className="host_action">
                       <CallSvg />
                     </a>
-                    <a href="sms:01011111111" className="host_action">
+                    <a href="sms:+821085221783" className="host_action">
                       <SmsSvg />
                     </a>
                   </div>
                 </div>
                 <div className="host_item">
                   <div className="host_info">
-                    <span>아버지</span>
+                    <span>어머니</span>
                     <span className="host_info_bold">신정난</span>
                   </div>
                   <div className="host_action_box">
-                    <a href="tel:01011111111" className="host_action">
+                    <a href="tel:+821022111783" className="host_action">
                       <CallSvg />
                     </a>
-                    <a href="sms:01011111111" className="host_action">
+                    <a href="sms:+821022111783" className="host_action">
                       <SmsSvg />
                     </a>
                   </div>
@@ -161,10 +161,10 @@ function Main() {
                     <span className="host_info_bold">김순용</span>
                   </div>
                   <div className="host_action_box">
-                    <a href="tel:01011111111" className="host_action">
+                    <a href="tel:+821041446787" className="host_action">
                       <CallSvg />
                     </a>
-                    <a href="sms:01011111111" className="host_action">
+                    <a href="sms:+821041446787" className="host_action">
                       <SmsSvg />
                     </a>
                   </div>
@@ -175,10 +175,10 @@ function Main() {
                     <span className="host_info_bold">강민아</span>
                   </div>
                   <div className="host_action_box">
-                    <a href="tel:01011111111" className="host_action">
+                    <a href="tel:+821073500432" className="host_action">
                       <CallSvg />
                     </a>
-                    <a href="sms:01011111111" className="host_action">
+                    <a href="sms:+821073500432" className="host_action">
                       <SmsSvg />
                     </a>
                   </div>
