@@ -94,9 +94,16 @@
     .family_list_box {
       display: flex;
       flex-direction: column;
+      // 모바일에서 글씨가 ㄱ깨져서 나와서 수정..
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      // 여기까지 수정사항
       gap: 12px;
       .family_item_box {
-        width: 184px;
+        // 여기도 width 수정 
+        // width: 184px;
+        width: 70%;
         display: flex;
         justify-content: space-between;
         .parents_box {
