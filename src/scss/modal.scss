@@ -17,16 +17,19 @@
     .modal_header {
       position: relative;
       display: flex;
+      justify-content: space-between;
       align-items: center;
       padding: 21px 17px;
       background-color: #000;
+      // 큰 화면에서 modal header 안보여서 이걸로 바꿈
+      z-index: 10;
       span {
         font-family: "Nanum Gothic", serif;
         font-size: 12px;
         color: #fff;
       }
       .modal_close {
-        margin-left: auto;
+        // margin-left: auto;
         background: none;
         border: none;
         cursor: pointer;
@@ -52,6 +55,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        // height:fit-content;
         .swiper_image {
           width: 100%;
           height: auto;
