@@ -76,7 +76,7 @@ function Footer() {
       </div>
       <div className="footer_section">
         <span className="footer_copyright">
-          Copyright © 2024 Seungmin and Seunghwa. All rights reserved.
+          Copyright © 2025 Seungmin and Seunghwa. All rights reserved.
         </span>
       </div>
     </footer>

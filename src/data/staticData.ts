@@ -9,6 +9,7 @@ import weddingImg8 from "../assets/images/16.png"
 import weddingImg9 from "../assets/images/20.png"
 
 
+
 export const images = [
   weddingImg1,
   weddingImg2,
@@ -25,6 +26,11 @@ export const activeData = [
     title: "신랑 신부 계좌번호",
     data: [
       {
+        type: "기업은행",
+        content: "16714788101012",
+        name: "신승민",
+      },
+      {
         type: "카카오뱅크",
         content: "3333259875959",
         name: "김승화",
@@ -36,7 +42,7 @@ export const activeData = [
       },
       {
         type: "e-Transfer",
-        content: "3333259875959",
+        content: "seunghwakim97@gmail.com",
         name: "Seunghwa Kim",
       },
     ],
@@ -45,19 +51,14 @@ export const activeData = [
     title: "신랑혼주측 계좌번호",
     data: [
       {
-        type: "카카오뱅크",
-        content: "3333259875959",
-        name: "김승화",
+        type: "기업은행",
+        content: "33302280001026",
+        name: "신창인",
       },
       {
-        type: "e-Transfer",
-        content: "shin891211@hotmail.com",
-        name: "Seungmin Shin",
-      },
-      {
-        type: "e-Transfer",
-        content: "3333259875959",
-        name: "Seunghwa Kim",
+        type: "국민은행",
+        content: "215210874252",
+        name: "신문범",
       },
     ],
   },
@@ -65,19 +66,14 @@ export const activeData = [
     title: "신부혼주측 계좌번호",
     data: [
       {
-        type: "카카오뱅크",
-        content: "3333259875959",
-        name: "김승화",
+        type: "신한은행",
+        content: "0000000000000",
+        name: "김순용",
       },
       {
-        type: "e-Transfer",
-        content: "shin891211@hotmail.com",
-        name: "Seungmin Shin",
-      },
-      {
-        type: "e-Transfer",
-        content: "3333259875959",
-        name: "Seunghwa Kim",
+        type: "신한은행",
+        content: "110268899127",
+        name: "강민아",
       },
     ],
   },

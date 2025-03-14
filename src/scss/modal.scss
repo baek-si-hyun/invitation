@@ -19,7 +19,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 21px 17px;
+      padding: 0 17px;
+      height: 8vh;
       background-color: #000;
       // 큰 화면에서 modal header 안보여서 이걸로 바꿈
       z-index: 10;
@@ -48,6 +49,12 @@
     }
     .swiper {
       width: 100%;
+      //edit start - to make the image resposive
+      height:100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      //edit end - to make the image resposive
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
@@ -57,8 +64,9 @@
         justify-content: center;
         // height:fit-content;
         .swiper_image {
-          width: 100%;
-          height: auto;
+          max-width: 100%;
+          // max-height: calc(100% - 34px);
+          max-height: calc(100% - 8vh);
           object-fit: contain;
         }
       }
