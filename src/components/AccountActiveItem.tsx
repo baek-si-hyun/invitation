@@ -24,10 +24,10 @@ function AccountActiveItem({
   };
 
   return (
-    <div className={`account_active_item ${isActive ? "active" : ""}`}>
+    <div className={`account_active_item ${isActive ? "active" : ""}`} onClick={onClick}>
       <div className="account_default">
         <span className="account_default_title">{list.title}</span>
-        <button className="account_default_btn" onClick={onClick}>
+        <button className="account_default_btn">
           <ArrowSvg className={`${isActive ? "active" : ""}`} />
         </button>
       </div>
