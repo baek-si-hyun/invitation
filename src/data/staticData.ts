@@ -67,11 +67,6 @@ export const activeData = [
     data: [
       {
         type: "신한은행",
-        content: "0000000000000",
-        name: "김순용",
-      },
-      {
-        type: "신한은행",
         content: "110268899127",
         name: "강민아",
       },

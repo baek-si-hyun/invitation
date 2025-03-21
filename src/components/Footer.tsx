@@ -62,13 +62,13 @@ function Footer() {
     <footer>
       <div className="footer_section">
         {/* 카카오톡 공유하기 */}
-        <span className="footer_share" onClick={handleKakaoShare}>
+        {/* <span className="footer_share" onClick={handleKakaoShare}>
           카카오톡 공유하기
-        </span>
+        </span> */}
         {/* 페이스북 공유하기 */}
-        <span className="footer_share" onClick={handleFacebookShare}>
+        {/* <span className="footer_share" onClick={handleFacebookShare}>
           페이스북 공유하기
-        </span>
+        </span> */}
         {/* 링크 복사하기 */}
         <span className="footer_share" onClick={handleLinkCopy}>
           링크 복사하기
