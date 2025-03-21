@@ -46,7 +46,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://baek-si-hyun.github.io/invitation",
   "devDependencies": {
     "@types/navermaps": "^3.7.9"
   }
