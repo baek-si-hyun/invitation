@@ -7,6 +7,8 @@ import { useState } from "react";
 import AccountActiveItem from "../components/AccountActiveItem";
 import Modal from "../components/Modal";
 import { activeData, images } from "../data/staticData";
+import weddingImg10 from "../assets/images/3.jpg"
+
 
 function Main() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -48,7 +50,8 @@ function Main() {
           </div>
           <div className="main_img_box">
             <img
-              src="https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/2fb70e88-9a0c-42dc-c4e7-f6bbab271500/invitation"
+              // src="https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/2fb70e88-9a0c-42dc-c4e7-f6bbab271500/invitation"
+              src={weddingImg10}
               alt="main_img"
               className="main_img"
             />
