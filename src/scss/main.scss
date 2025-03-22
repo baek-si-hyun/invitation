@@ -202,6 +202,7 @@
       .gallery_item {
         width: 100px;
         height: 100px;
+        will-change: transform;
         .gallery_btn {
           width: 100%;
           height: 100%;
