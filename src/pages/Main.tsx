@@ -201,7 +201,7 @@ function Main() {
                   className="gallery_btn"
                   onClick={() => handleImageClick(index)}
                 >
-                  <img src={item} alt="gallery_img" className="gallery_img" />
+                  <img src={item} alt="gallery_img" className="gallery_img" loading="lazy" />
                 </button>
               </div>
             ))}
