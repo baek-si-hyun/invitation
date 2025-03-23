@@ -1,26 +1,37 @@
-import weddingImg1 from "../assets/images/4.png"
-import weddingImg2 from "../assets/images/5.png"
-import weddingImg3 from "../assets/images/7.png"
-import weddingImg4 from "../assets/images/8.png"
-import weddingImg5 from "../assets/images/9.png"
-import weddingImg6 from "../assets/images/13.png"
-import weddingImg7 from "../assets/images/15.png"
-import weddingImg8 from "../assets/images/16.png"
-import weddingImg9 from "../assets/images/20.png"
-
-
+import weddingImg1 from "../assets/images/4.avif";
+import weddingImg2 from "../assets/images/5.avif";
+import weddingImg3 from "../assets/images/7.avif";
+import weddingImg4 from "../assets/images/8.avif";
+import weddingImg5 from "../assets/images/9.avif";
+import weddingImg6 from "../assets/images/13.avif";
+import weddingImg7 from "../assets/images/15.avif";
+import weddingImg8 from "../assets/images/16.avif";
+import weddingImg9 from "../assets/images/20.avif";
 
 export const images = [
-  weddingImg1,
-  weddingImg2,
-  weddingImg3,
-  weddingImg4,
-  weddingImg5,
-  weddingImg6,
-  weddingImg7,
-  weddingImg8,
-  weddingImg9,
+  "https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/9070bd7d-16d0-4b59-585b-cf90b681c200/GALLERYA",
+  "https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/93d03dca-10f5-42e3-65b7-4c352a049c00/GALLERYA",
+  "https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/8c3df41b-2c3e-4667-183e-b2c9f57fe100/GALLERYA",
+  "https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/2d6235da-d95d-4b68-fa5d-e2cba509f200/GALLERYA",
+  "https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/728363a6-5e2b-4f8a-4a75-712109353500/GALLERYA",
+  "https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/1923fa7f-f6d7-4c06-5ff0-d4bae4096f00/GALLERYA",
+  "https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/785262e6-f712-4a16-5c51-042f55552400/GALLERYA",
+  "https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/21124fa8-8e55-4564-8190-ae634ceb7600/GALLERYA",
+  "https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/351cc226-cd5b-4fb7-c9e0-d241b8084100/GALLERYA",
 ];
+
+// export const images = [
+//   weddingImg1,
+//   weddingImg2,
+//   weddingImg3,
+//   weddingImg4,
+//   weddingImg5,
+//   weddingImg6,
+//   weddingImg7,
+//   weddingImg8,
+//   weddingImg9,
+// ];
+
 export const activeData = [
   {
     title: "신랑 신부 계좌번호",
