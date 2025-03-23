@@ -10,6 +10,7 @@
     width: 100vw;
     height: 100vh;
     .landing_title_box {
+      margin-top: 50px;
       margin-bottom: 9px;
       .landing_title {
         font-size: 12px;
@@ -20,7 +21,7 @@
     .landing_title_date_box {
       display: flex;
       flex-direction: column;
-      margin-bottom: 30px;
+      margin-bottom: 15px;
       .landing_title_date {
         font-size: 40px;
         font-weight: 700;
@@ -28,7 +29,7 @@
       }
     }
     .landing_sub_title_box {
-      margin-bottom: 13px;
+      margin-bottom: 9px;
       .landing_sub_title {
         font-size: 12px;
         font-weight: 400;
@@ -38,7 +39,6 @@
     .landing_member_box {
       display: flex;
       gap: 29px;
-      margin-bottom: 25px;
       .landing_member_item {
         font-size: 16px;
         font-weight: 700;
@@ -50,6 +50,7 @@
       .main_img {
         width: 326px;
         height: 407px;
+        object-fit: cover;
       }
     }
     .landing_description_box {
@@ -201,6 +202,7 @@
       .gallery_item {
         width: 100px;
         height: 100px;
+        will-change: transform;
         .gallery_btn {
           width: 100%;
           height: 100%;
@@ -363,7 +365,7 @@
                 align-items: center;
                 gap: 3px;
                 .account_hidden_content {
-                  font-size: 10px;
+                  font-size: 12px;
                   font-weight: 400;
                   line-height: 24px;
                   &:nth-child(2) {
@@ -373,7 +375,7 @@
                 }
               }
               .account_hidden_copy_btn {
-                font-size: 8px;
+                font-size: 10px;
                 font-weight: 400;
                 width: 51px;
                 height: 22px;
@@ -387,7 +389,7 @@
             }
             .account_hidden_name_box {
               .account_hidden_content {
-                font-size: 10px;
+                font-size: 12px;
                 font-weight: 400;
               }
             }

@@ -7,6 +7,8 @@ import { useState } from "react";
 import AccountActiveItem from "../components/AccountActiveItem";
 import Modal from "../components/Modal";
 import { activeData, images } from "../data/staticData";
+import weddingImg10 from "../assets/images/3.jpg"
+
 
 function Main() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -48,7 +50,8 @@ function Main() {
           </div>
           <div className="main_img_box">
             <img
-              src="https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/2fb70e88-9a0c-42dc-c4e7-f6bbab271500/invitation"
+              // src="https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/2fb70e88-9a0c-42dc-c4e7-f6bbab271500/invitation"
+              src={weddingImg10}
               alt="main_img"
               className="main_img"
             />
@@ -76,7 +79,7 @@ function Main() {
             <div className="family_list_box">
               <div className="family_item_box">
                 <div className="parents_box">
-                  <span className="parents">신창인 · 신정난</span>
+                  <span className="parents">신창인 · 신문범</span>
                   <span className="word">의</span>
                 </div>
                 <span className="word">아들</span>
@@ -141,7 +144,7 @@ function Main() {
                 <div className="host_item">
                   <div className="host_info">
                     <span>어머니</span>
-                    <span className="host_info_bold">신정난</span>
+                    <span className="host_info_bold">신문범</span>
                   </div>
                   <div className="host_action_box">
                     <a href="tel:+821022111783" className="host_action">
@@ -198,7 +201,7 @@ function Main() {
                   className="gallery_btn"
                   onClick={() => handleImageClick(index)}
                 >
-                  <img src={item} alt="gallery_img" className="gallery_img" />
+                  <img src={item} alt="gallery_img" className="gallery_img" loading="lazy" />
                 </button>
               </div>
             ))}
@@ -236,7 +239,7 @@ function Main() {
             <div className="location_descript_section">
               <span className="location_descript_title">대중교통</span>
               <span className="location_descript_content">
-                5호선 미사역 하차 4번 출구 - 택시 약 7분 소요 (6,500원 정도)
+                5호선 미사역 하차 4번 출구 - 택시 약 7분 소요 (4,300원 정도)
               </span>
             </div>
             <div className="location_descript_section">
@@ -251,7 +254,7 @@ function Main() {
                 · 첫차 (누아주가든 방향) 오전 10시 40분
               </span>
               <span className="location_descript_content">
-                · 막차 (미사역 방향) 오후 3시
+                · 막차 (미사역 방향) 오후 2시 40분
               </span>
             </div>
           </div>
