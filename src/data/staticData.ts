@@ -1,3 +1,4 @@
+//확장자로 최적화하는 경우
 import weddingImg1 from "../assets/images/4.avif";
 import weddingImg2 from "../assets/images/5.avif";
 import weddingImg3 from "../assets/images/7.avif";
@@ -8,6 +9,8 @@ import weddingImg7 from "../assets/images/15.avif";
 import weddingImg8 from "../assets/images/16.avif";
 import weddingImg9 from "../assets/images/20.avif";
 
+
+//클라우드를 사용하는 경우
 export const images = [
   "https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/9070bd7d-16d0-4b59-585b-cf90b681c200/GALLERYA",
   "https://imagedelivery.net/4aEUbX05h6IovGOQjgkfSw/93d03dca-10f5-42e3-65b7-4c352a049c00/GALLERYA",
