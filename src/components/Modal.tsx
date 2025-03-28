@@ -83,9 +83,9 @@ function Modal({ isOpen, onClose, images, initialIndex = 0 }: ModalProps) {
                   alt={`slide_${index}`}
                   className="swiper_image"
                   //이미지가 뷰포트(사용자가 보고 있는 화면 영역) 근처에 들어오기 전까지는 로드(다운로드)를 미룬다
-                  loading="lazy"
+                  // loading="lazy" 
                   //브라우저가 이미지를 비동기적으로 디코딩하게 지시한다
-                  decoding="async"
+                  // decoding="async"
                 />
               </SwiperSlide>
             ))}
