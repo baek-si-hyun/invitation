@@ -59,7 +59,7 @@ function Footer() {
   };
 
   return (
-    <footer>
+    <footer className="footer-container">
       <div className="footer_section">
         {/* 카카오톡 공유하기 */}
         {/* <span className="footer_share" onClick={handleKakaoShare}>
