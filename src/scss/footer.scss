@@ -1,7 +1,9 @@
-footer {
+.footer-container {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
+
   .footer_section {
     &:first-child {
       margin-bottom: 22px;
