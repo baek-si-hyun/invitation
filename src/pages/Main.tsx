@@ -3,12 +3,12 @@ import { ReactComponent as CallSvg } from "../assets/svg/call.svg";
 import { ReactComponent as SmsSvg } from "../assets/svg/sms.svg";
 import NaverMap from "../components/NaverMap";
 import Footer from "../components/Footer";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import AccountActiveItem from "../components/AccountActiveItem";
 import Modal from "../components/Modal";
 import { activeData, images } from "../data/staticData";
-import weddingImg10 from "../assets/images/3.jpg"
-
+import weddingImg10 from "../assets/images/3.avif";
+import GallerySkeleton from "../components/GallerySkeleton";
 
 function Main() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -27,6 +27,10 @@ function Main() {
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
+
+  useEffect(() => {
+    console.log(images.length);
+  }, [images.length]);
 
   return (
     <>
@@ -201,7 +205,12 @@ function Main() {
                   className="gallery_btn"
                   onClick={() => handleImageClick(index)}
                 >
-                  <img src={item} alt="gallery_img" className="gallery_img" loading="lazy" />
+                  <img
+                    src={item}
+                    alt="gallery_img"
+                    className="gallery_img"
+                    loading="lazy"
+                  />
                 </button>
               </div>
             ))}

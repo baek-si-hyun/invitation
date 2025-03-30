@@ -1,0 +1,7 @@
+html {
+  overscroll-behavior-y: none;
+}
+
+:root {
+  --vh: 1vh; // 모바일 환경에서의 폴백 용도
+}

@@ -1,9 +1,12 @@
 .container {
   width: 100%;
+  height: calc(var(--vh) * 100);
   position: relative;
+  overflow: hidden auto;
   section:first-child {
-      margin-top: 50px;
+    margin-top: 50px;
   }
+
   section {
     margin: 0 auto;
     margin-top: 140px;
@@ -22,8 +25,6 @@
         line-height: 15px;
       }
     }
-
-
 
     .landing_title_date_box {
       display: flex;
@@ -109,7 +110,7 @@
       // 여기까지 수정사항
       gap: 12px;
       .family_item_box {
-        // 여기도 width 수정 
+        // 여기도 width 수정
         // width: 184px;
         width: 70%;
         display: flex;
