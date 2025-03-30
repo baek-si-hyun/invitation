@@ -28,10 +28,6 @@ function Main() {
     setIsModalOpen(false);
   };
 
-  useEffect(() => {
-    console.log(images.length);
-  }, [images.length]);
-
   return (
     <>
       {" "}
