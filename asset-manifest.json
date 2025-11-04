@@ -1,8 +1,17 @@
 {
   "files": {
     "main.css": "/invitation/static/css/main.695e34f3.css",
-    "main.js": "/invitation/static/js/main.b236a681.js",
+    "main.js": "/invitation/static/js/main.39034d54.js",
+    "static/media/9.avif": "/invitation/static/media/9.7e7f8cef2f4d97cde1da.avif",
+    "static/media/7.avif": "/invitation/static/media/7.3e4640dcb46a8312d1f9.avif",
+    "static/media/8.avif": "/invitation/static/media/8.87cbe943c33a086c1106.avif",
+    "static/media/4.avif": "/invitation/static/media/4.6481a0f41189e6ac2d61.avif",
+    "static/media/5.avif": "/invitation/static/media/5.40bcc9d71e47413b811d.avif",
+    "static/media/20.avif": "/invitation/static/media/20.37395d7c81a5fa6e4710.avif",
+    "static/media/15.avif": "/invitation/static/media/15.342cd3389709aed4035e.avif",
+    "static/media/13.avif": "/invitation/static/media/13.fe07b30533c542424570.avif",
     "static/media/3.avif": "/invitation/static/media/3.11de61283508f7066a9e.avif",
+    "static/media/16.avif": "/invitation/static/media/16.ab7d6646ee49cb3b8a72.avif",
     "index.html": "/invitation/index.html",
     "static/media/call.svg": "/invitation/static/media/call.09572f68ab791cae106521b9842e718d.svg",
     "static/media/cancel.svg": "/invitation/static/media/cancel.bde8be7be9588cd56ae861cf7c3e86ee.svg",
@@ -12,10 +21,10 @@
     "static/media/sms.svg": "/invitation/static/media/sms.c0afe1a36d37d6791b51495a0e982177.svg",
     "static/media/copy.svg": "/invitation/static/media/copy.c1edfca438b4f4dd4fb489844974d213.svg",
     "main.695e34f3.css.map": "/invitation/static/css/main.695e34f3.css.map",
-    "main.b236a681.js.map": "/invitation/static/js/main.b236a681.js.map"
+    "main.39034d54.js.map": "/invitation/static/js/main.39034d54.js.map"
   },
   "entrypoints": [
     "static/css/main.695e34f3.css",
-    "static/js/main.b236a681.js"
+    "static/js/main.39034d54.js"
   ]
 }
